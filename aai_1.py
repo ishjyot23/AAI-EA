@@ -18,7 +18,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 
 # Set your Gemini API Key here
-API_KEY = "AQ.Ab8RN6JS2w7ul07BTzGE-qpqrFMNxLfXtF7-WJmMrLZcEH8_QA"
+API_KEY = "AQ.*****************************"
 genai.configure(api_key=API_KEY)
 
 class UserQuery(BaseModel):
